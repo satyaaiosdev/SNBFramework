@@ -3,4 +3,8 @@ public struct NBFramework {
 
     public init() {
     }
+    
+    public func greeting(name: String) -> String {
+        return "Hello \(name)"
+    }
 }
